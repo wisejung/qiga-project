@@ -1,0 +1,8 @@
+networkx~=3.2.1
+numpy~=1.26.4
+qiskit~=1.2.0
+qiskit-ibm-runtime
+
+matplotlib~=3.8.4
+pillow~=10.3.0
+gurobipy~=11.0.3
