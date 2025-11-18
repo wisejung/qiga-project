@@ -1,0 +1,30 @@
+
+Gurobi 13.0.0 (mac64[arm]) logging started Tue Nov 18 10:05:29 2025
+
+Set parameter LogFile to value "/Users/jjung404/PyProjects/qiga/data/steiner-opt/SP/w3c571_log.txt"
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 24.6.0 24G231)
+
+CPU model: Apple M3
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 2284 rows, 10278 columns and 10278 nonzeros (Min)
+Model fingerprint: 0xf8b43b87
+Model has 10278 linear objective coefficients
+Variable types: 0 continuous, 10278 integer (10278 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 2284.0000000
+Presolve removed 2284 rows and 10278 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 2284 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.284000000000e+03, best bound 2.284000000000e+03, gap 0.0000%
