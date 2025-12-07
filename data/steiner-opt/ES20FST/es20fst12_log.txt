@@ -1,0 +1,92 @@
+
+Gurobi 13.0.0 (mac64[arm]) logging started Sun Dec  7 08:30:57 2025
+
+Set parameter LogFile to value "/Users/jjung404/PyProjects/qiga/data/steiner-opt/ES20FST/es20fst12_log.txt"
+Set parameter OutputFlag to value 1
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 24.6.0 24G325)
+
+CPU model: Apple M3
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 125 rows, 108 columns and 321 nonzeros (Min)
+Model fingerprint: 0x79f750af
+Model has 36 linear objective coefficients
+Variable types: 72 continuous, 36 integer (36 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+05, 3e+06]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+01]
+Found heuristic solution: objective 3.919981e+07
+Presolve removed 43 rows and 34 columns
+Presolve time: 0.00s
+Presolved: 82 rows, 74 columns, 257 nonzeros
+Variable types: 48 continuous, 26 integer (26 binary)
+
+Root relaxation: objective 1.926691e+07, 42 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1.9267e+07    0   22 3.9200e+07 1.9267e+07  50.8%     -    0s
+H    0     0                    3.732227e+07 1.9267e+07  48.4%     -    0s
+H    0     0                    3.540630e+07 1.9267e+07  45.6%     -    0s
+H    0     0                    3.337284e+07 1.9267e+07  42.3%     -    0s
+H    0     0                    3.281728e+07 1.9267e+07  41.3%     -    0s
+H    0     0                    3.132141e+07 1.9267e+07  38.5%     -    0s
+     0     0 2.3184e+07    0   20 3.1321e+07 2.3184e+07  26.0%     -    0s
+H    0     0                    3.061446e+07 2.3227e+07  24.1%     -    0s
+     0     0 2.3227e+07    0   19 3.0614e+07 2.3227e+07  24.1%     -    0s
+     0     0 2.3227e+07    0   19 3.0614e+07 2.3227e+07  24.1%     -    0s
+H    0     0                    3.045140e+07 2.4097e+07  20.9%     -    0s
+     0     0 2.4097e+07    0   20 3.0451e+07 2.4097e+07  20.9%     -    0s
+     0     0 2.4223e+07    0   17 3.0451e+07 2.4223e+07  20.5%     -    0s
+     0     0 2.4257e+07    0   18 3.0451e+07 2.4257e+07  20.3%     -    0s
+     0     0 2.4292e+07    0   18 3.0451e+07 2.4292e+07  20.2%     -    0s
+     0     0 2.4292e+07    0   18 3.0451e+07 2.4292e+07  20.2%     -    0s
+     0     0 2.5581e+07    0   15 3.0451e+07 2.5581e+07  16.0%     -    0s
+     0     0 2.5666e+07    0   19 3.0451e+07 2.5666e+07  15.7%     -    0s
+     0     0 2.5742e+07    0   15 3.0451e+07 2.5742e+07  15.5%     -    0s
+     0     0 2.5745e+07    0   16 3.0451e+07 2.5745e+07  15.5%     -    0s
+     0     0 2.6302e+07    0   16 3.0451e+07 2.6302e+07  13.6%     -    0s
+     0     0 2.6319e+07    0   15 3.0451e+07 2.6319e+07  13.6%     -    0s
+     0     0 2.6327e+07    0   17 3.0451e+07 2.6327e+07  13.5%     -    0s
+     0     0 2.6336e+07    0   17 3.0451e+07 2.6336e+07  13.5%     -    0s
+     0     0 2.6336e+07    0   17 3.0451e+07 2.6336e+07  13.5%     -    0s
+     0     0 2.6385e+07    0   17 3.0451e+07 2.6385e+07  13.4%     -    0s
+     0     0 2.6472e+07    0   12 3.0451e+07 2.6472e+07  13.1%     -    0s
+     0     0 2.6472e+07    0   14 3.0451e+07 2.6472e+07  13.1%     -    0s
+     0     0 2.6472e+07    0   14 3.0451e+07 2.6472e+07  13.1%     -    0s
+     0     0 2.6472e+07    0   14 3.0451e+07 2.6472e+07  13.1%     -    0s
+     0     0 2.6851e+07    0   16 3.0451e+07 2.6851e+07  11.8%     -    0s
+     0     0 2.6858e+07    0   16 3.0451e+07 2.6858e+07  11.8%     -    0s
+     0     0 2.6858e+07    0   16 3.0451e+07 2.6858e+07  11.8%     -    0s
+     0     0 2.6922e+07    0   15 3.0451e+07 2.6922e+07  11.6%     -    0s
+     0     0 2.6934e+07    0   14 3.0451e+07 2.6934e+07  11.6%     -    0s
+     0     0 2.6976e+07    0   14 3.0451e+07 2.6976e+07  11.4%     -    0s
+     0     0 2.7003e+07    0   14 3.0451e+07 2.7003e+07  11.3%     -    0s
+     0     0 2.7003e+07    0   14 3.0451e+07 2.7003e+07  11.3%     -    0s
+     0     0 2.7003e+07    0   13 3.0451e+07 2.7003e+07  11.3%     -    0s
+     0     2 2.7003e+07    0   13 3.0451e+07 2.7003e+07  11.3%     -    0s
+
+Cutting planes:
+  Learned: 1
+  Gomory: 4
+  Cover: 10
+  Implied bound: 12
+  Clique: 2
+  MIR: 45
+  Flow cover: 79
+  Flow path: 9
+  Inf proof: 1
+  Network: 15
+  RLT: 2
+  Relax-and-lift: 2
+
+Explored 355 nodes (3108 simplex iterations) in 0.06 seconds (0.04 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 8: 3.04514e+07 3.06145e+07 3.13214e+07 ... 3.91998e+07
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.045139700000e+07, best bound 3.045139700000e+07, gap 0.0000%

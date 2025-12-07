@@ -1,0 +1,56 @@
+
+Gurobi 13.0.0 (mac64[arm]) logging started Sun Dec  7 08:30:15 2025
+
+Set parameter LogFile to value "/Users/jjung404/PyProjects/qiga/data/steiner-opt/ES10FST/es10fst15_log.txt"
+Set parameter OutputFlag to value 1
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 24.6.0 24G325)
+
+CPU model: Apple M3
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 62 rows, 54 columns and 161 nonzeros (Min)
+Model fingerprint: 0xba086ea5
+Model has 18 linear objective coefficients
+Variable types: 36 continuous, 18 integer (18 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+00]
+  Objective range  [2e+05, 4e+06]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 9e+00]
+Found heuristic solution: objective 2.422441e+07
+Presolve removed 29 rows and 21 columns
+Presolve time: 0.00s
+Presolved: 33 rows, 33 columns, 104 nonzeros
+Variable types: 22 continuous, 11 integer (11 binary)
+
+Root relaxation: objective 1.372573e+07, 21 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1.3726e+07    0   11 2.4224e+07 1.3726e+07  43.3%     -    0s
+H    0     0                    2.106790e+07 1.3726e+07  34.9%     -    0s
+H    0     0                    2.024813e+07 1.3726e+07  32.2%     -    0s
+H    0     0                    1.984420e+07 1.3726e+07  30.8%     -    0s
+H    0     0                    1.904586e+07 1.3726e+07  27.9%     -    0s
+     0     0 1.7209e+07    0    8 1.9046e+07 1.7209e+07  9.64%     -    0s
+H    0     0                    1.864192e+07 1.7209e+07  7.69%     -    0s
+     0     0 1.8483e+07    0    7 1.8642e+07 1.8483e+07  0.85%     -    0s
+
+Cutting planes:
+  Gomory: 2
+  Cover: 4
+  Implied bound: 4
+  MIR: 5
+  Flow cover: 7
+  Flow path: 3
+  Network: 2
+  Relax-and-lift: 1
+
+Explored 1 nodes (53 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 6: 1.86419e+07 1.90459e+07 1.98442e+07 ... 2.42244e+07
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.864192400000e+07, best bound 1.864192400000e+07, gap 0.0000%

@@ -1,0 +1,31 @@
+
+Gurobi 13.0.0 (mac64[arm]) logging started Sun Dec  7 08:30:15 2025
+
+Set parameter LogFile to value "/Users/jjung404/PyProjects/qiga/data/steiner-opt/ES10FST/es10fst05_log.txt"
+Set parameter OutputFlag to value 1
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 24.6.0 24G325)
+
+CPU model: Apple M3
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 44 rows, 33 columns and 104 nonzeros (Min)
+Model fingerprint: 0x576482ed
+Model has 11 linear objective coefficients
+Variable types: 22 continuous, 11 integer (11 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+00]
+  Objective range  [6e+05, 3e+06]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 9e+00]
+Found heuristic solution: objective 1.881892e+07
+Presolve removed 44 rows and 33 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 1.88189e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.881891600000e+07, best bound 1.881891600000e+07, gap 0.0000%

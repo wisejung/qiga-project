@@ -1,0 +1,67 @@
+
+Gurobi 13.0.0 (mac64[arm]) logging started Sun Dec  7 08:30:15 2025
+
+Set parameter LogFile to value "/Users/jjung404/PyProjects/qiga/data/steiner-opt/ES10FST/es10fst03_log.txt"
+Set parameter OutputFlag to value 1
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 24.6.0 24G325)
+
+CPU model: Apple M3
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 67 rows, 60 columns and 179 nonzeros (Min)
+Model fingerprint: 0x73ab380b
+Model has 20 linear objective coefficients
+Variable types: 40 continuous, 20 integer (20 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+00]
+  Objective range  [9e+04, 5e+06]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 9e+00]
+Found heuristic solution: objective 3.483173e+07
+Presolve removed 20 rows and 15 columns
+Presolve time: 0.00s
+Presolved: 47 rows, 45 columns, 147 nonzeros
+Variable types: 30 continuous, 15 integer (15 binary)
+
+Root relaxation: objective 1.856312e+07, 26 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1.8563e+07    0   14 3.4832e+07 1.8563e+07  46.7%     -    0s
+H    0     0                    3.287720e+07 1.8563e+07  43.5%     -    0s
+H    0     0                    3.220827e+07 1.8563e+07  42.4%     -    0s
+H    0     0                    2.922380e+07 1.8563e+07  36.5%     -    0s
+H    0     0                    2.914555e+07 2.0922e+07  28.2%     -    0s
+H    0     0                    2.649660e+07 2.0922e+07  21.0%     -    0s
+     0     0 2.1445e+07    0   15 2.6497e+07 2.1445e+07  19.1%     -    0s
+H    0     0                    2.600368e+07 2.2332e+07  14.1%     -    0s
+     0     0 2.2332e+07    0   13 2.6004e+07 2.2332e+07  14.1%     -    0s
+     0     0 2.2332e+07    0   13 2.6004e+07 2.2332e+07  14.1%     -    0s
+     0     0 2.3159e+07    0   12 2.6004e+07 2.3159e+07  10.9%     -    0s
+     0     0 2.3309e+07    0   14 2.6004e+07 2.3309e+07  10.4%     -    0s
+     0     0 2.3388e+07    0   14 2.6004e+07 2.3388e+07  10.1%     -    0s
+     0     0 2.4441e+07    0   12 2.6004e+07 2.4441e+07  6.01%     -    0s
+     0     0 2.4866e+07    0   14 2.6004e+07 2.4866e+07  4.38%     -    0s
+     0     0 2.4866e+07    0   14 2.6004e+07 2.4866e+07  4.38%     -    0s
+     0     0 2.5710e+07    0   10 2.6004e+07 2.5710e+07  1.13%     -    0s
+     0     0 2.5933e+07    0   11 2.6004e+07 2.5933e+07  0.27%     -    0s
+     0     0 2.5933e+07    0   11 2.6004e+07 2.5933e+07  0.27%     -    0s
+
+Cutting planes:
+  Gomory: 3
+  Cover: 2
+  Implied bound: 2
+  MIR: 7
+  Flow cover: 19
+  Zero half: 3
+  Network: 2
+  RLT: 1
+
+Explored 1 nodes (150 simplex iterations) in 0.02 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 7: 2.60037e+07 2.64966e+07 2.91455e+07 ... 3.48317e+07
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.600367800000e+07, best bound 2.600367800000e+07, gap 0.0000%

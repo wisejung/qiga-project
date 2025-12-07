@@ -1,0 +1,84 @@
+
+Gurobi 13.0.0 (mac64[arm]) logging started Sun Dec  7 08:30:50 2025
+
+Set parameter LogFile to value "/Users/jjung404/PyProjects/qiga/data/steiner-opt/ES20FST/es20fst14_log.txt"
+Set parameter OutputFlag to value 1
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 24.6.0 24G325)
+
+CPU model: Apple M3
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 144 rows, 132 columns and 391 nonzeros (Min)
+Model fingerprint: 0x0020e2af
+Model has 44 linear objective coefficients
+Variable types: 88 continuous, 44 integer (44 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [8e+04, 4e+06]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+01]
+Found heuristic solution: objective 4.975907e+07
+Presolve removed 28 rows and 22 columns
+Presolve time: 0.00s
+Presolved: 116 rows, 110 columns, 357 nonzeros
+Variable types: 72 continuous, 38 integer (38 binary)
+
+Root relaxation: objective 2.149552e+07, 75 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 2.1496e+07    0   25 4.9759e+07 2.1496e+07  56.8%     -    0s
+H    0     0                    3.686766e+07 2.1496e+07  41.7%     -    0s
+H    0     0                    3.612575e+07 2.1496e+07  40.5%     -    0s
+H    0     0                    3.565130e+07 2.1496e+07  39.7%     -    0s
+H    0     0                    3.480071e+07 2.1496e+07  38.2%     -    0s
+H    0     0                    3.445002e+07 2.1496e+07  37.6%     -    0s
+     0     0 2.4748e+07    0   29 3.4450e+07 2.4748e+07  28.2%     -    0s
+     0     0 2.4928e+07    0   30 3.4450e+07 2.4928e+07  27.6%     -    0s
+     0     0 2.6302e+07    0   28 3.4450e+07 2.6302e+07  23.7%     -    0s
+     0     0 2.6391e+07    0   31 3.4450e+07 2.6391e+07  23.4%     -    0s
+     0     0 2.6391e+07    0   31 3.4450e+07 2.6391e+07  23.4%     -    0s
+     0     0 2.7330e+07    0   29 3.4450e+07 2.7330e+07  20.7%     -    0s
+     0     0 2.7919e+07    0   22 3.4450e+07 2.7919e+07  19.0%     -    0s
+     0     0 2.7920e+07    0   23 3.4450e+07 2.7920e+07  19.0%     -    0s
+     0     0 2.8857e+07    0   21 3.4450e+07 2.8857e+07  16.2%     -    0s
+     0     0 2.8906e+07    0   20 3.4450e+07 2.8906e+07  16.1%     -    0s
+     0     0 2.8906e+07    0   21 3.4450e+07 2.8906e+07  16.1%     -    0s
+     0     0 2.8941e+07    0   22 3.4450e+07 2.8941e+07  16.0%     -    0s
+     0     0 2.8952e+07    0   25 3.4450e+07 2.8952e+07  16.0%     -    0s
+     0     0 2.8982e+07    0   24 3.4450e+07 2.8982e+07  15.9%     -    0s
+     0     0 2.8982e+07    0   24 3.4450e+07 2.8982e+07  15.9%     -    0s
+     0     0 2.8989e+07    0   24 3.4450e+07 2.8989e+07  15.9%     -    0s
+     0     0 2.8993e+07    0   24 3.4450e+07 2.8993e+07  15.8%     -    0s
+     0     0 2.9202e+07    0   22 3.4450e+07 2.9202e+07  15.2%     -    0s
+     0     0 2.9283e+07    0   21 3.4450e+07 2.9283e+07  15.0%     -    0s
+     0     0 2.9285e+07    0   21 3.4450e+07 2.9285e+07  15.0%     -    0s
+     0     0 2.9286e+07    0   21 3.4450e+07 2.9286e+07  15.0%     -    0s
+     0     0 2.9286e+07    0   21 3.4450e+07 2.9286e+07  15.0%     -    0s
+     0     0 2.9286e+07    0   21 3.4450e+07 2.9286e+07  15.0%     -    0s
+     0     0 2.9286e+07    0   20 3.4450e+07 2.9286e+07  15.0%     -    0s
+     0     2 2.9286e+07    0   19 3.4450e+07 2.9286e+07  15.0%     -    0s
+H   25    50                    3.406237e+07 2.9877e+07  12.3%  20.0    0s
+
+Cutting planes:
+  Gomory: 6
+  Cover: 18
+  Implied bound: 16
+  MIR: 80
+  Flow cover: 128
+  Flow path: 11
+  Inf proof: 17
+  Zero half: 3
+  Mod-K: 1
+  Network: 29
+  RLT: 2
+  Relax-and-lift: 3
+
+Explored 4169 nodes (30239 simplex iterations) in 0.17 seconds (0.21 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 7: 3.40624e+07 3.445e+07 3.48007e+07 ... 4.97591e+07
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.406237400000e+07, best bound 3.406237400000e+07, gap 0.0000%

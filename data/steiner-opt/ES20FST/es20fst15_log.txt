@@ -1,0 +1,82 @@
+
+Gurobi 13.0.0 (mac64[arm]) logging started Sun Dec  7 08:30:50 2025
+
+Set parameter LogFile to value "/Users/jjung404/PyProjects/qiga/data/steiner-opt/ES20FST/es20fst15_log.txt"
+Set parameter OutputFlag to value 1
+Gurobi Optimizer version 13.0.0 build v13.0.0rc1 (mac64[arm] - Darwin 24.6.0 24G325)
+
+CPU model: Apple M3
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 143 rows, 129 columns and 378 nonzeros (Min)
+Model fingerprint: 0xfef29870
+Model has 43 linear objective coefficients
+Variable types: 86 continuous, 43 integer (43 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+04, 2e+06]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+01]
+Presolve removed 78 rows and 63 columns
+Presolve time: 0.00s
+Presolved: 65 rows, 66 columns, 199 nonzeros
+Variable types: 44 continuous, 22 integer (22 binary)
+Found heuristic solution: objective 3.990230e+07
+Found heuristic solution: objective 3.971538e+07
+Found heuristic solution: objective 3.963798e+07
+Found heuristic solution: objective 3.946406e+07
+
+Root relaxation: objective 2.784927e+07, 42 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 2.7849e+07    0   14 3.9464e+07 2.7849e+07  29.4%     -    0s
+H    0     0                    3.365676e+07 2.7849e+07  17.3%     -    0s
+     0     0 3.0017e+07    0   15 3.3657e+07 3.0017e+07  10.8%     -    0s
+H    0     0                    3.312386e+07 3.0108e+07  9.10%     -    0s
+H    0     0                    3.273032e+07 3.0108e+07  8.01%     -    0s
+H    0     0                    3.230375e+07 3.0108e+07  6.80%     -    0s
+     0     0 3.0108e+07    0   14 3.2304e+07 3.0108e+07  6.80%     -    0s
+     0     0 3.0742e+07    0   18 3.2304e+07 3.0742e+07  4.84%     -    0s
+     0     0 3.0826e+07    0   18 3.2304e+07 3.0826e+07  4.58%     -    0s
+     0     0 3.0884e+07    0   19 3.2304e+07 3.0884e+07  4.39%     -    0s
+     0     0 3.0888e+07    0   18 3.2304e+07 3.0888e+07  4.38%     -    0s
+     0     0 3.0888e+07    0   18 3.2304e+07 3.0888e+07  4.38%     -    0s
+     0     0 3.1550e+07    0   15 3.2304e+07 3.1550e+07  2.33%     -    0s
+     0     0 3.1608e+07    0   15 3.2304e+07 3.1608e+07  2.15%     -    0s
+     0     0 3.1608e+07    0   15 3.2304e+07 3.1608e+07  2.15%     -    0s
+     0     0 3.1769e+07    0   12 3.2304e+07 3.1769e+07  1.66%     -    0s
+     0     0 3.1813e+07    0   16 3.2304e+07 3.1813e+07  1.52%     -    0s
+     0     0 3.1877e+07    0   15 3.2304e+07 3.1877e+07  1.32%     -    0s
+     0     0 3.1879e+07    0   16 3.2304e+07 3.1879e+07  1.31%     -    0s
+     0     0 3.1884e+07    0   20 3.2304e+07 3.1884e+07  1.30%     -    0s
+     0     0 3.1884e+07    0   18 3.2304e+07 3.1884e+07  1.30%     -    0s
+     0     0 3.1884e+07    0   18 3.2304e+07 3.1884e+07  1.30%     -    0s
+     0     0 3.1884e+07    0   18 3.2304e+07 3.1884e+07  1.30%     -    0s
+     0     0 3.1884e+07    0   18 3.2304e+07 3.1884e+07  1.30%     -    0s
+     0     0 3.1884e+07    0   18 3.2304e+07 3.1884e+07  1.30%     -    0s
+     0     0 3.1884e+07    0   18 3.2304e+07 3.1884e+07  1.30%     -    0s
+     0     0 3.1884e+07    0   18 3.2304e+07 3.1884e+07  1.30%     -    0s
+     0     0 3.1884e+07    0   16 3.2304e+07 3.1884e+07  1.30%     -    0s
+     0     2 3.1884e+07    0   16 3.2304e+07 3.1884e+07  1.30%     -    0s
+
+Cutting planes:
+  Gomory: 2
+  Cover: 6
+  Implied bound: 3
+  MIR: 15
+  Flow cover: 9
+  Flow path: 4
+  Zero half: 1
+  Network: 11
+  RLT: 1
+  Relax-and-lift: 1
+
+Explored 22 nodes (465 simplex iterations) in 0.02 seconds (0.01 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 8: 3.23037e+07 3.27303e+07 3.31239e+07 ... 3.99023e+07
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.230374600000e+07, best bound 3.230374600000e+07, gap 0.0000%
